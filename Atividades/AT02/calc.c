@@ -2,9 +2,14 @@
 
 int main(void)
 {
+<<<<<<< HEAD
     
         float num1,
               num2;
+=======
+        float num1;
+        float  num2;
+>>>>>>> 2126ef120dc6af3450dc6da3683e3e039ad04e04
         char oper;
 
         do
