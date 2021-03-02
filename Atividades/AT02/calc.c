@@ -2,8 +2,8 @@
 
 int main(void)
 {
-        float num1,
-              num2;
+        float num1;
+        float  num2;
         char oper;
 
         do
