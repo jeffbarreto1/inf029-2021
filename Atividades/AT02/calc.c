@@ -53,9 +53,10 @@ float divisao(){
 
 void menu(){
 	printf("\nEscolha a operacao que deseja realizar:\n");
+	printf("\n[0]-Sair\n");
 	printf("\n[1]-Soma\n");
 	printf("\n[2]-Subtracao\n");
-	printf("\n]3]-Multiplicacao\n");
+	printf("\n[3]-Multiplicacao\n");
 	printf("\n[4]-Divisao\n");
 	printf("\n\n");
 }
@@ -70,6 +71,12 @@ int main(){
         menu();
         scanf("%d", &operador);
 			switch (operador){
+				case 0:{
+					sair = 1;
+					printf("\nSaindo...\n");
+					break;
+				}
+
 				case 1:{
 					result = soma();
 					printf("\nO resultado da operacao:%f\n",result);
