@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <math.h>
 
-// Obs. Para compilar no gcc, utilize `-lncurses` ao final
 
 float soma(){ 
 	int num1, num2;
