@@ -6,10 +6,10 @@
 int soma(){ 
 	int num1, num2;
 
-	printf("\n----- SOMA -----");
-	printf("\nDigite o primeiro numero:");
+	printf("\n-----> SOMA <-----");
+	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&num1);
-	printf("\nDigite o segundo numero:");
+	printf("\nDigite o segundo numero: ");
 	scanf("%d",&num2);
 
 	return(num1+num2); 
@@ -18,10 +18,10 @@ int soma(){
 int subtracao(){ 
 	int a,b;
 
-	printf("\n----- SUBTRAÇÃO -----");
-	printf("\nDigite o primeiro numero:");
+	printf("\n-----> SUBTRAÇÃO <-----");
+	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&a);
-	printf("\nDigite o segundo numero:");
+	printf("\nDigite o segundo numero: ");
 	scanf("%d",&b);
 
 	return(a-b); 
@@ -30,10 +30,10 @@ int subtracao(){
 int multiplicacao(){ 
 	int a,b;
 
-	printf("\n----- MULTIPLICACAO -----");
-	printf("\nDigite o primeiro numero:");
+	printf("\n-----> MULTIPLICACAO <-----");
+	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&a);
-	printf("\nDigite o segundo numero:");
+	printf("\nDigite o segundo numero: ");
 	scanf("%d",&b);
 
 	return(a*b); 
@@ -41,15 +41,15 @@ int multiplicacao(){
 
 float divisao(){ 
 	float a,b;
-
-	printf("\n----- DIVISÃO -----");
-	printf("\nDigite o primeiro numero:");
+	
+	printf("\n-----> DIVISÃO <-----");
+	printf("\nDigite o primeiro numero: ");
     scanf("%f",&a);
-    printf("\nDigite o segundo numero:");
+    printf("\nDigite o segundo numero: ");
     scanf("%f",&b);
 	
 	if(b==0){
-		printf("operação incorreta, tente novamente\n");
+		printf("ERROR: Nao e possivel dividir por Zero, tente novamente\n");
 		return 0;
 	}
 
@@ -85,22 +85,22 @@ int main(){
 				
 				case 1:{
 					result = soma();
-					printf("\nO resultado da operacao:%.2f\n",result);
+					printf("\nO resultado da operacao e: %.2f\n",result);
 					break;
 				}
 				case 2:{
 					result = subtracao();
-					printf("\nO resultado da operacao:%.2f\n",result);
+					printf("\nO resultado da operacao e: %.2f\n",result);
 					break;
 				}
 				case 3:{
 					result = multiplicacao();
-					printf("\nO resultado da operacao:%.2f\n",result);
+					printf("\nO resultado da operacao e: %.2f\n",result);
 					break;
 				}
 				case 4:{
 					result = divisao();
-					printf("\nO resultado da operacao:%.2f\n",result);
+					printf("\nO resultado da operacao e: %.2f\n",result);
 					break;
 				}
 				default: {
