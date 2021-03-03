@@ -58,7 +58,7 @@ float divisao(){
 }
 
 void menu(){
-	printf("\nEscolha a operacao que deseja realizar:\n");
+	printf("\nEscolha a operacao que deseja realizar: \n");
 	printf("\n[0]-Sair\n");
 	printf("\n[1]-Soma\n");
 	printf("\n[2]-Subtracao\n");
