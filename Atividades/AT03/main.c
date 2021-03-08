@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 #include "op_soma.h"
+#include "op_sub.h"
 
 
 /*int soma(){ 
@@ -14,7 +15,7 @@
 	scanf("%d",&num2);
 
 	return(num1+num2); 
-}*/
+}
 
 int subtracao(){ 
 	int a,b;
@@ -26,7 +27,7 @@ int subtracao(){
 	scanf("%d",&b);
 
 	return(a-b); 
-}
+}*/
 
 int multiplicacao(){ 
 	int a,b;
