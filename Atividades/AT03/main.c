@@ -51,7 +51,7 @@ float divisao(){
 	
 	if(b==0){
 		printf("ERROR: Nao e possivel dividir por Zero, tente novamente\n");
-		return -99999;
+		return 0;
 	}
 
 	else
@@ -59,7 +59,7 @@ float divisao(){
 }
 
 void menu(){
-	printf("\nEscolha a operacao que deseja realizar:\n");
+	printf("\nEscolha a operacao que deseja realizar: \n");
 	printf("\n[0]-Sair\n");
 	printf("\n[1]-Soma\n");
 	printf("\n[2]-Subtracao\n");
@@ -101,14 +101,7 @@ int main(){
 				}
 				case 4:{
 					result = divisao();
-					if(result=-99999){
-						printf("\n");
-					}
-
-					else{	
-						printf("\nO resultado da operacao e: %.2f\n",result);
-					}
-
+					printf("\nO resultado da operacao e: %.2f\n",result);
 					break;
 				}
 				default: {
