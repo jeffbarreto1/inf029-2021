@@ -28,13 +28,13 @@ int main(){
     float result;
     int num1, num2;
 
-    printf("\n-----> CALCULADORA DE SOMA <-----");
+    printf("\n-----> CALCULADORA DE SOMA <-----\n");
 	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&num1);
 	printf("\nDigite o segundo numero: ");
 	scanf("%d",&num2);
 
     result = soma(num1, num2);
-    printf("\nO resultado da operacao e: %.2f\n",result);
+    printf("\nO resultado da operacao e: %.2f\n\n",result);
     
 }
