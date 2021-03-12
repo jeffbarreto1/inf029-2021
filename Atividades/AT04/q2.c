@@ -13,8 +13,6 @@ resultado da subtração
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
-
 
 int subtrair(int a, int b, int c){ 
 

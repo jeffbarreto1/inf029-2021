@@ -13,8 +13,6 @@ usuário e imprimir o fatorial dele, ou se não é possível calcular o fatorial
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
-
 
 int fatorial(int a){ 
 
