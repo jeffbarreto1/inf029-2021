@@ -17,7 +17,7 @@ usuário e imprimir o fatorial dele, ou se não é possível calcular o fatorial
 int fatorial(int a){ 
 
     int fat = 1;
-
+        
     if (a < 0){
         return -1;
     }
@@ -29,18 +29,19 @@ int fatorial(int a){
 
 int main(){
 
-    int result;
-    int num1;
-
+    int result, num1;
+  
     printf("\n-----> CALCULADORA FATORIAL <-----\n");
 	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&num1);
     result = fatorial(num1);
 
+    
     if (num1<0){
         printf("\nNão existe fatorial de número negativo\n\n");
     }
     else
         printf("\nO resultado da operacao e: %d\n\n",result);
-    
+        
+    return 0;
 }

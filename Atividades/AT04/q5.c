@@ -13,44 +13,45 @@ struct para fazer o retorno.
 #include <stdlib.h>
 #include <stdio.h>
 
-typedef struct{
-    
+typedef struct {
     int num1;
     int num2;
     int num3;
     int num4;
 
-}numero;
-
-numero num1;
-numero num2;
-numero num3;
-numero num4;
-
-void ler4Numeros(){
+} Numero;
 
 
-    printf("\n-----> LER 4 NUMEROS <-----\n");
+Numero ler4Numeros(){
+    Numero meusNumeros;
+    int x1, x2, x3, x4;
+       
+    printf("\n-----> LER 4 NUMEROS <-----\n\n");
 	printf("\nDigite o primeiro numero: ");
-	scanf("%d",&num1);
+	scanf("%d",&x1);
 	printf("\nDigite o segundo numero: ");
-	scanf("%d",&num2);
+	scanf("%d",&x2);
     printf("\nDigite o terceiro numero: ");
-	scanf("%d",&num3);
+	scanf("%d",&x3);
     printf("\nDigite o quarto numero: ");
-	scanf("%d",&num4);
+	scanf("%d",&x4);
 
+    meusNumeros.num1 = x1;
+    meusNumeros.num2 = x2;
+    meusNumeros.num3 = x3;
+    meusNumeros.num4 = x4;
+
+    return meusNumeros;
 }
 
 int main(){       
+    Numero resultNumeros = ler4Numeros();
     
-    ler4Numeros();
+    printf("\nImprimindo... %d\n\n",resultNumeros.num1);
+    printf("\nImprimindo... %d\n\n",resultNumeros.num2);
+    printf("\nImprimindo... %d\n\n",resultNumeros.num3);
+    printf("\nImprimindo... %d\n\n",resultNumeros.num4);  
 
-    printf("\nImprimindo... %d\n\n",num1);
-    printf("\nImprimindo... %d\n\n",num2);
-    printf("\nImprimindo... %d\n\n",num3);
-    printf("\nImprimindo... %d\n\n",num4);
-    
-    
-    
+    return 0;
+        
 }

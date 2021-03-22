@@ -35,4 +35,5 @@ int main(){
     result = subtrair(num1, num2, num3);
     printf("\nO resultado da operacao e: %.2f\n\n",result);
     
+    return 0;
 }

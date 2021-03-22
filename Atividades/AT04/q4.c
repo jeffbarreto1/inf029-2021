@@ -20,7 +20,7 @@ int *ler3Numeros(int *vetor){
 	scanf("%d",&vetor[0]);
 	printf("\nDigite o segundo numero: ");
 	scanf("%d",&vetor[1]);
-    printf("\nDigite o segundo numero: ");
+    printf("\nDigite o terceiro numero: ");
 	scanf("%d",&vetor[2]);
 
 
@@ -39,5 +39,5 @@ int main(){
     }
     
     
-    
+    return 0;
 }
