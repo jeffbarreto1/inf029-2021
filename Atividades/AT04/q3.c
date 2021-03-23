@@ -32,6 +32,7 @@ int main(){
     int result, num1;
   
     printf("\n-----> CALCULADORA FATORIAL <-----\n");
+    
 	printf("\nDigite o primeiro numero: ");
 	scanf("%d",&num1);
     result = fatorial(num1);
